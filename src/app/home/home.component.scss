@@ -1,0 +1,63 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+//-----ESTILOS DEL CONTENEDOR DE LAS LETRAS ------
+.col-6.text-center.p-5 {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 5vw;  /* Espaciado interno en relación con el ancho de la pantalla */
+ 
+//----- LETRAS ------
+  h3 {
+    text-align: justify;
+    font-size: 1vw;  /* Tamaño de fuente en relación con el ancho de la pantalla */
+    color: #466466;
+    margin-bottom: 0px;
+    letter-spacing: 0.4vw;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 5vw;  /* Tamaño de fuente en relación con el ancho de la pantalla */
+    font-weight: bold;
+    color: #466466;
+    margin-bottom: -0.5vw;
+    line-height: 1;
+    letter-spacing: 0.4vw;
+    span {
+      font-weight: bold;
+      text-align: justify;
+      font-size: 7vw;  /* Tamaño de fuente en relación con el ancho de la pantalla */
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 0.5vw;
+      color: #466466;
+    }
+  }
+}
+
+
+//-----ESTILOS PARA PANTALLAS MAS PEQUENAS ------
+@media (max-width: 768px) {
+  .col-6.text-center.p-5 {
+    padding: 10px;  /* Espaciado interno para pantallas pequeñas */
+  }
+  h3 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: -5px; 
+    span {
+      font-size: 3rem;
+    }
+  }
+}
+
+
