@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarHomeComponent } from './navbar-home/navbar-home.component';
 import { NavbarRegistroComponent } from './navbar-registro/navbar-registro.component';
 import { FormLoginComponent } from './form-login/form-login.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -24,7 +25,8 @@ import { FormLoginComponent } from './form-login/form-login.component';
     HomeComponent,
     NavbarHomeComponent,
     NavbarRegistroComponent,
-    FormLoginComponent
+    FormLoginComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
